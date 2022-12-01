@@ -12,7 +12,7 @@ export function MovieInfo({
   const movScore = Math.round(movieRait * 10);
   let src = `https://image.tmdb.org/t/p/w500${moviePoster}`;
   if (moviePoster === null) {
-    src ='https://d2j1wkp1bavyfs.cloudfront.net/legacy/assets/mf-no-poster-available-v2.png';
+    src ='https://cdn-icons-png.flaticon.com/512/4054/4054617.png';
   }
   return (
     <div className={styles.movieInfoWrap}>
