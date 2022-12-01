@@ -41,7 +41,7 @@ export default function Reviews() {
       ) : (
         <div
         style={{
-          padding: '10px 30px',
+          padding:'30px 50px',
         }}> 
             <p >We don't have any reviews for this movie.</p>
         </div>

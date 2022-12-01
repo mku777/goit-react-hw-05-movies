@@ -30,7 +30,7 @@ export default function Cast() {
       {dataId !== undefined && (
         <ul className={style.CastList}>
           {castData
-            .slice(0, 14)
+            .slice(0, 18)
             .map(({ id, name, character, profile_path }) => {
               return (
                 <CastList

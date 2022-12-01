@@ -20,7 +20,12 @@ export default function Home() {
   return (
     <MovieList>
       <>
-        <h2>Trendind today</h2>
+        <h2 style={{
+          fontSize: '30px',
+          marginLeft: '70px',
+          color: '#8B0000',
+          fontWeight: '500',
+        }}>Trending today</h2>
       </>
       {moviesData.map(({ id, title }) => {
         return <MovieItem key={id} filmTitle={title} movieId={id} />;

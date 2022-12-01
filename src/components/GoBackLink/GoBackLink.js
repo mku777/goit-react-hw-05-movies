@@ -4,9 +4,9 @@ import s from '../GoBackLink/GoBackLink.module.css';
 
 export function GoBackLink() {
   const location = useLocation();
-  return (
+  return ( <button className={s.goBackBtn}>
     <Link className={s.GoBackLink} to={location.state?.from ?? '/Home'}>
       Go back
-    </Link>
+    </Link></button>
   );
 }

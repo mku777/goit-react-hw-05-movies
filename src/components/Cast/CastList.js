@@ -10,7 +10,7 @@ export function CastList({ actorName, character, actorPhoto }) {
 
   return (
     <li className={s.CastItem}>
-      <img src={src} alt="{actorName}" width='100px' />
+      <img src={src} alt="{actorName}" width='140px' />
       <p>{actorName}</p>
       <p> Character: {character}</p>
     </li>
