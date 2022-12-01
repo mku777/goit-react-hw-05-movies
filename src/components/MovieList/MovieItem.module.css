@@ -1,0 +1,11 @@
+.item {
+    margin-bottom: 5px;
+  }
+
+  .item:last-child {
+    margin-bottom: 0;
+  }
+
+  .itemLink:hover {
+    color: rgb(57, 214, 49);
+  }
