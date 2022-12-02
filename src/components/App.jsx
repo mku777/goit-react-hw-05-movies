@@ -13,7 +13,14 @@ const Reviews = lazy(() => import('./Reviews/Reviews.js'));
 export const App = () => {
   return (
     <>
-        <Suspense fallback={<div>Loading</div>}>
+        <Suspense fallback={<div style={{
+          display: 'flex',
+          justifyContent: 'center',
+          marginTop: '500px',
+          fontSize: '25px',
+          fontWeight: '600',
+          color: 'red',
+        }}>Loading</div>}>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
